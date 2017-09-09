@@ -1,0 +1,166 @@
+body,html{
+	font-family: Arial,Verdana,Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.429;
+    color: rgba(0,0,0,.87);
+    background:#d2effd;;
+    width:100%;
+}
+*{
+	padding:0px;margin:0px;border:none;
+	list-style-type: none;
+	text-decoration:none;
+}
+img{
+	width:auto;
+	max-width:950px;
+}
+.bg_grey{
+	background:#ebf4f9;
+}
+#content{
+	width:100%;
+	max-width:1280px;
+	margin:0px auto;
+}
+.banner{width:100%;text-align:center;}
+.mes_content{
+	max-width:950px;
+	width:100%;
+	margin:0px auto;
+	box-sizing:border-box;
+	padding:10px 3%;
+
+}
+.mes_content .tittle p{
+	font-size:18px;
+	width:100%;
+	line-height:38px;
+	padding:10px 0px;
+}
+.mes_content .detailes{
+	max-width:550px;
+	width:100%;
+	margin:20px auto;
+	text-align: center;
+}
+h3{
+	color:#0368b4;
+	font-size:23px;
+	padding-bottom:20px;
+}
+.mes_content .detailes table{
+	width:100%;
+	background:#fff;
+	line-height: 36px;
+	margin:15px 0px;
+	font-size: 18px;
+	font-weight:600;
+}
+.mes_content .detailes table tr td{
+	padding:0px 60px;
+	text-align: left;
+}
+.mes_content .detailes table tr td:nth-child(1){
+	color:#014779;
+}
+
+ .forms_con{
+	max-width:950px;
+	width:100%;
+	margin:0px auto;
+	box-sizing:border-box;
+	padding:10px 3%;
+	padding:20px 0px;
+}
+.forms{
+	width:100%;
+	background:#fff;
+	font-size:18px;
+}
+ .forms .forms_con{
+ 	max-width:960px;
+ 	width:100%;
+ 	margin:0px auto;
+ }
+ .forms_con .form{
+  width:100%;
+  padding:20px 5px;
+}
+ .forms_con .form .item{
+	margin-top:20px;position: relative;
+	margin-bottom:20px;
+	height:70px;
+}
+ .forms_con .form .item .la{
+	display:inline-block;
+	position: absolute;top:0px;
+	left:0px;
+       z-index:3;
+       background:#fff;
+	width:100%;
+	line-height:32px;
+
+}
+ .forms_con .form .item .style_same{
+display:inline-block;outline:none;
+height:32px;
+  width:100%;
+  border-bottom:1px solid #ccc;
+}
+ .forms_con .form .item .error{
+	line-height:30px;
+	color:red;
+	font-size:15px;
+
+}
+.checkbox_style{
+	margin-right:8%;
+}
+.btn{
+	width:16%;
+	height:50px;
+	margin:0px auto;
+	padding-bottom:14px;
+}
+.btn>div{
+	width:100%;
+	height:100%;
+	background:#014779;
+	text-align: center;
+	line-height:50px;
+	font-size:24px;
+	color:white;
+	cursor:pointer;
+	letter-spacing: 4px;
+}
+.checkbox{
+	font-size:20px;
+	height:20px;width:20px;
+	position: relative;top:3px;
+}
+.error{
+	display:none;
+}
+@media screen and (max-width:950px){
+  .forms .forms_con{
+		padding:0px 3%;
+	}
+}
+@media screen and (max-width:500px){
+	.mes_content .detailes table tr td{
+		padding:0px 10px;
+	}
+	.forms .forms_con{
+		padding:0px 2%;
+	}
+	.btn{
+		width:34%;
+	}
+}
+@media screen and (max-width:350px){
+	.mes_content .detailes table tr td{
+		padding:0px 5px;
+	}
+}

@@ -1,0 +1,135 @@
+<!-- 本網站幾乎兼容所有的瀏覽器，而且pc，ipad，mobilephone都響應兼容 created by 飛-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<style type="text/css">
+ .scaleMove{
+   font-size:14px!important;
+   transform: translateY(-30px);
+   transition:all 0.5s;
+ }
+ .scaleMove_leave{
+   font-size:18px!important;
+   transform: translateY(0px);
+   transition:all 0.5s;
+ }
+ .isShadow{
+  box-shadow:1px 7px 16px -10px #000;
+ }
+ .box_shadow{
+  box-shadow:3px 3px 45px 3px #ef5454;
+ }
+</style>
+
+ 
+</head>
+<body>
+<div id="content" >
+ <div class="banner"><img src="images/1.jpg"></div>
+ <div class="mes_content">
+  <div class="tittle"><p>谁曾从谁的青春里走过，留下了笑靥，谁曾在谁的花季里停留，温暖了想念，谁又从谁的雨季里消失，泛滥了眼泪。 曾经以为属于自己的那颗星不会陨落，但等到它真的掉下来的时候，我才发现，原来世上真的没有永恒。</p></div>
+  <div class="detailes">
+    <h3>记忆是一张挂满风铃的卷帘</h3>
+    <table cellpadding="0" cellspacing="0">
+      <tr>
+       <td>日期  </td>
+       <td>2017年9月16日 (星期六)</td>
+      </tr>
+      <tr class="bg_grey">
+        <td>時間</td>
+        <td >下午2時至4時</td>
+      </tr>
+       <tr>
+        <td>地點</td>
+        <td>零碳天地</td>
+      </tr>
+       <tr class="bg_grey">
+        <td>名額</td>
+        <td >60個 (名額有限，先到先得）</td>
+      </tr>
+       <tr>
+        <td>服飾</td>
+        <td>藍色為主運動裝</td>
+      </tr>
+      <tr class="bg_grey">
+        <td>費用</td>
+        <td >全免</td>
+      </tr>
+    </table>
+  </div>
+ </div>
+</div>
+<form id="form" action="1.php" method="post" >
+<div class="forms app">
+  <div class="forms_con">
+      <h3 style="text-align: center;">立即填妥以下資料</h3>
+      <div class="form">
+        <div class="item">
+          <label class="la" >姓名</label>
+          <input type="text" name="userName"  class="style_same userName">
+          <div class="error">請輸入用戶名</div>
+        </div>
+        <div class="item">
+          <label class="la" >手機號碼</label>
+          <input type="text" name="phoneNumber"  class="style_same phoneNumber">
+          <div class="error">請輸入手機號碼</div>
+        </div>
+         <div class="item">
+          <label class="la" >電郵地址</label>
+          <input type="text" name="email" class="style_same email">
+          <div class="error">請輸入正確的電郵地址</div>
+        </div>
+         <div class="item">
+          <label class="la" >年齡</label>
+          <select class="style_same age"  name="age" >
+            <option ></option>
+            <option value="22" >22</option>
+            <option value="22" >22</option>
+          </select>
+          <div class="error"></div>
+        </div>
+         <div class="item">
+           <label class="checkbox_style">您是否會和朋友一起</label>
+           <label class="checkbox_style"><input type="radio" class="goWithFriend" checked name="goWithFriend" value="yes">&nbsp;會</label>
+           <label class="checkbox_style"><input type="radio" class="single"  value="no"
+           name="goWithFriend">&nbsp;不會</label>
+        </div>
+        <div class="item">
+          <label class="la" >朋友姓名</label>
+          <input type="text" name="f_userName" class="style_same f_userName">
+          <div class="error">請輸入用戶名</div>
+        </div>
+        <div class="item">
+          <label class="la" >朋友手機號碼</label>
+          <input type="text" name="f_phone" class="style_same f_phone">
+          <div class="error">請輸入手機號碼</div>
+        </div>
+         <div class="item">
+          <label class="la" >朋友電郵地址</label>
+          <input type="text" name="f_email" class="style_same f_email">
+          <div class="error">請輸入正確的電郵地址</div>
+        </div>
+        <div class="item">
+         
+          <input type="checkbox" name="agree_one"   class="checkbox agree_one" >
+             &nbsp; &nbsp;本人赢了统一啦
+          <div class="error">請閣下選擇以示同意</div>
+        </div>  
+      </div>
+     </div>
+  <div class="btn">
+    <div>提交</div>
+  </div>
+</div>
+</form>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
